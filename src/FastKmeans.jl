@@ -7,6 +7,7 @@ module FastKmeans
 using Clustering
 using StaticArrays
 import StaticArrays.dot
+import StaticArrays.norm
 
 function point_all_ctrs!(i,x,c,a,u,l)
     k = length(c)
